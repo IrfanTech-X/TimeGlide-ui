@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Modern Clock</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <div class="container">
-    <div class="greeting" id="greeting">Good Evening 🌙</div>
-    <div class="time" id="time">00:00:00</div>
-    <div class="line"></div>
-    <div class="date" id="date">August 1, 2025</div>
-    <div class="day" id="day">Friday</div>
-    <div class="timezone" id="timezone">Asia/Dhaka</div>
+    <!-- Clock Section -->
+    <section class="clock-section">
+      <div class="greeting" id="greeting">Good Evening 🌙</div>
+      <div class="time" id="time">00:00:00</div>
+      <div class="line"></div>
+      <div class="date" id="date">August 1, 2025</div>
+      <div class="day" id="day">Friday</div>
+      <div class="timezone" id="timezone">Asia/Dhaka</div>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather-section">
+      <h2>Current Weather</h2>
+      <div class="weather-main">
+        <img id="weather-icon" alt="Weather Icon" />
+        <div class="weather-temp" id="weather-temp">--°C</div>
+      </div>
+      <div class="weather-desc" id="weather-desc">Loading...</div>
+      <div class="weather-details">
+        <div>Feels like: <span id="feels-like">--°C</span></div>
+        <div>Wind: <span id="wind-speed">-- m/s</span></div>
+        <div>Humidity: <span id="humidity">--%</span></div>
+        <div>Pressure: <span id="pressure">-- hPa</span></div>
+        <div>Rain (last 1h): <span id="rain-volume">0 mm</span></div>
+      </div>
+      <button id="toggle-unit">Show °F</button>
+    </section>
   </div>
 
   <script src="script.js"></script>
