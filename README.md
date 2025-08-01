@@ -97,7 +97,7 @@ You are free to use, modify, and distribute this project for personal or educati
 
 **Irfan Ferdous Siam**  
 🎓 BSc in CSE, Green University of Bangladesh  
-🔗 GitHub: [@IrfanTech-X](https://github.com/IrfanTech-X)  
-📧 Email: siamtalukdar3@gmail.com
-
+📧 Email: [siamtalukdar3@gmail.com](mailto:siamtalukdar3@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/irfan-ferdous-siam](https://linkedin.com/in/irfan-ferdous-siam)  
+💻 GitHub: [github.com/IrfanTech-X](https://github.com/IrfanTech-X)
 
