@@ -22,9 +22,25 @@ function updateClock() {
 
   let greeting = "Hello 👋";
   const currentHour = now.getHours();
-  if (currentHour >= 5 && currentHour < 12) greeting = "Good Morning ☀️";
-  else if (currentHour >= 12 && currentHour < 18) greeting = "Good Afternoon 🌤️";
-  else greeting = "Good Evening 🌙";
+if (currentHour >= 5 && currentHour < 8) {
+  greeting = "Good Early Morning 🌅";
+} else if (currentHour >= 8 && currentHour < 11) {
+  greeting = "Good Morning ☀️";
+} else if (currentHour >= 11 && currentHour < 12) {
+  greeting = "Good Late Morning 🌞";
+} else if (currentHour >= 12 && currentHour < 13) {
+  greeting = "Good Noon ☀️";
+} else if (currentHour >= 13 && currentHour < 16) {
+  greeting = "Good Early Afternoon 🌤️";
+} else if (currentHour >= 16 && currentHour < 17) {
+  greeting = "Good Late Afternoon 🌥️";
+} else if (currentHour >= 17 && currentHour < 19) {
+  greeting = "Good Early Evening 🌇";
+} else if (currentHour >= 19 && currentHour < 21) {
+  greeting = "Good Evening 🌆";
+} else {
+  greeting = "Good Night 🌙";
+}
 
   document.getElementById('greeting').textContent = greeting;
 }
